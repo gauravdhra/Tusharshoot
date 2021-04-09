@@ -712,6 +712,7 @@ ol {
 }
 
 .team__item {
+  box-shadow: -28px 5px 107px -7px black;
   height: 390px;
   position: relative;
   overflow: hidden;
