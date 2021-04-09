@@ -74,7 +74,12 @@
     dot.each(function () {
         var index = $(this).index() + 1;
         if (index < 10) {
-            $(this).html('0').append(index);
+            if(index == 1)
+            $(this).html(`<i class="fa fa-film"></i>`)
+            if(index == 2)
+            $(this).html(`<i class="fa fa-pencil-square-o"></i>`)
+            if(index == 3)
+            $(this).html(`<i class="fa fa-music"></i>`)
         } else {
             $(this).html(index);
         }
