@@ -304,7 +304,7 @@ ol {
 }
 
 .header__logo {
-  padding: 30px 0;
+  padding: 12px 0;
 }
 .header__logo a {
   display: inline-block;
@@ -2128,6 +2128,14 @@ ol {
   .blog__details__quote {
     padding: 30px 45px 35px 35px;
   }
+}
+
+@media only screen and (max-width: 991px) {
+.header__logo{
+      padding: 12px 0;
+      margin-right: 70%;
+  }
+
 }
 /* Small Device = 320px */
 @media only screen and (max-width: 479px) {

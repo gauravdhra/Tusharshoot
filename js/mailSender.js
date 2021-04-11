@@ -1,14 +1,14 @@
 /*------------------
        Mail Sender
    --------------------*/
-emailjs.init("user_iy9h2DNFS11BOTkrbaKWH");
+emailjs.init("user_9YyNtfKt3MI1Id0X3kgY1");
 
 $("#contactForm").submit(sendMail);
 
 function sendMail(event) {
     event.preventDefault()
-    const serviceID = 'service_r1lmc7j'
-    const templateID = 'template_w4RqMYNG'
+    const serviceID = 'service_zas5bl9'
+    const templateID = 'template_w2p0rxd'
     // const userID = 'user_9YyNtfKt3MI1Id0X3kgY1'
 
     const templateParams = {
@@ -16,7 +16,7 @@ function sendMail(event) {
         to_name: 'Tushar Art & Company',
         contact: $('#contactForm').find('input[name="contact"]').val(),
         email: $('#contactForm').find('input[name="email"]').val(),
-        message_html: $('#contactForm').find('textare[name="message"]').val(),
+        message_html: $('#contactForm').find('textarea[name="message"]').val(),
         reply_to: $('#contactForm').find('input[name="FirstName"]').val()
     }
 
